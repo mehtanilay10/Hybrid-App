@@ -10,7 +10,7 @@
 
     try {
         // Deside Theme for App
-        var theme = 'wp';
+        var theme = 'mobiscroll';
         // mobiscroll | mobiscroll-dark | material | material-dark | ios | ios-dark | wp | wp-light | android-holo-light
 
         // Set Theme for App
@@ -114,7 +114,6 @@
                 $('.wishlist-wish').off().click(function (ev) {
                     var added,
                         btn = $(this);
-
                     btn.toggleClass('.wishlist-wish-added');
                     added = btn.hasClass('.wishlist-wish-added');
                     btn.find('.wishlist-wish-text').text(added ? 'Remove from wishlist' : 'Add to wishlist');
@@ -124,13 +123,9 @@
 
                 var notification = $('<div class="notification"><div class="notification-i"></div></div>').appendTo('body'),
                     notificationTimer;
-
                 function notify(text) {
-
                     clearTimeout(notificationTimer);
-
                     notification.show().find('.notification-i').html(text);
-
                     if (notification.hasClass('notification-v')) {
                         notification.removeClass('notification-v');
                         notificationTimer = setTimeout(function () {
@@ -139,7 +134,6 @@
                     } else {
                         notification.addClass('notification-v');
                     }
-
                     notificationTimer = setTimeout(function () {
                         notification.removeClass('notification-v');
                         notificationTimer = setTimeout(function () {
