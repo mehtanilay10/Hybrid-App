@@ -7,11 +7,14 @@ html, body {
 }
 
 body {
+    background: #f7f7f7;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.app{padding: 0px}
 
 button {
     display: inline-block;
@@ -71,32 +74,26 @@ input {
     box-shadow: 0px 0px 1px 1px rgba(170, 170, 170, 1);
 }
 
-.product-list-app .md-developer {
-    padding-top: 3px;
-    color: #616161;
-    font-size: 11px;
-}
-
-.product-list-app .md-title {
+.product-list-app .list-title {
     padding-top: 7px;
     font-size: 14px;
 }
 
-.product-list-app .md-rank {
+.product-list-app .list-price {
     position: absolute;
     bottom: 8px;
     left: 8px;
     font-size: 12px;
 }
 
-.product-list-app .md-img {
+.product-list-app .list-img {
     position: relative;
     top: 0;
-    width: 100%;
+    width: 115px;
     border-radius: 8px;
 }
 
-.product-list-app .md-rank .mbsc-ic {
+.product-list-app .list-price .mbsc-ic {
     padding-left: 3px;
 }
 
@@ -132,4 +129,27 @@ input {
 .app-theme-wp-light .product-list-app .mbsc-ms .mbsc-ms-item-i {
     white-space: normal;
     padding: .25em;
+}
+
+.product-list a:hover {
+    text-decoration: none!important;
+}
+
+.product-list
+{
+    padding:10px;
+}
+.title{
+    text-align:center;
+    color: #fafafa;
+    background: #242424;
+    padding:20px;
+    margin-bottom:10px;
+    margin-top: 0px;
+    box-shadow: 0px 5px 8px #888;
+}
+
+.mbsc-ms-item{text-transform:none!important;}
+.mbsc-form {
+    padding: 10px !important;
 }

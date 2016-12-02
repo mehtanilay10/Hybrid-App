@@ -13,136 +13,21 @@
     <link href="https://trial.mobiscroll.com/5c5d6241/mobiscroll.jquery.min.css" rel="stylesheet">
     <script src="https://trial.mobiscroll.com/5c5d6241/mobiscroll.jquery.min.js"></script>
 </head>
-<body class="product-list-app demo-comp-menustrip demo-display-top app-theme-mobiscroll">
+<body class="product-list-app app-theme-mobiscroll">
     <div class="app">
-        <div id="deviceready">
-            <h1 class="title">Hello World</h1>
-            <input id="calendar" placeholder="Please Select...">
+        <h1 class="title">My Shop</h1>
+        <!--<input id="calendar" placeholder="Please Select...">-->
+        <div class="product-list-app">
+            <div class="md-card-cont" style="display: none" mbsc-enhance>
+                <h3>Mobiles</h3>
+                <ul class="product-list" id="mobile-list" style="display:none;"></ul>
+
+                <h3>2-in-1 Laptops</h3>
+                <ul class="product-list" id="laptop-list" style="display:none;"></ul>
+            </div>
         </div>
     </div>
-
-    <div class="product-list-app">
-        <div class="md-card-cont" style="display: none" mbsc-enhance>
-            <h4>New & Updated Games</h4>
-            <ul class="product-list" style="display:none;">
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Worms 3</div>
-                    <div class="md-developer">Team 17 Digital Limited</div>
-                    <div class="md-rank">4.2<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Candy Crush Saga</div>
-                    <div class="md-developer">King</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Angry Birds</div>
-                    <div class="md-developer">Rovino</div>
-                    <div class="md-rank">4.4<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Need for Speed™ No Limits</div>
-                    <div class="md-developer">ELECTRONIC ARTS</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Hearthstone</div>
-                    <div class="md-developer">Blizzard Entertainment Inc.</div>
-                    <div class="md-rank">4.2<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Fruit Ninja</div>
-                    <div class="md-developer">Halfbrick Studios</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Subway Surfers</div>
-                    <div class="md-developer">Kiloo</div>
-                    <div class="md-rank">4.4<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Temple Run</div>
-                    <div class="md-developer">Imangi Studios</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Minecraft: Pocket Edition</div>
-                    <div class="md-developer">Mojang </div>
-                    <div class="md-rank">4.4<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-
-            </ul>
-
-            <h4>Capture the Moment</h4>
-            <ul class="product-list" style="display:none;">
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">High-Speed Camera</div>
-                    <div class="md-developer">HANTOR</div>
-                    <div class="md-rank">4.1<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Candy Camera</div>
-                    <div class="md-developer">JP Brothers, Inc.</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Lidow:layout snap</div>
-                    <div class="md-developer">Photo Group </div>
-                    <div class="md-rank">4.5<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Cameringo Lite. Effects Camera</div>
-                    <div class="md-developer">Perraco Labs</div>
-                    <div class="md-rank">4.2<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Open Camera</div>
-                    <div class="md-developer">Mark Harman</div>
-                    <div class="md-rank">4.2<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Photo Editor Pro</div>
-                    <div class="md-developer">Zentertain </div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Camera FV-5 Lite</div>
-                    <div class="md-developer">FGAE</div>
-                    <div class="md-rank">4.0<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">Retrica</div>
-                    <div class="md-developer">Venticake Inc.</div>
-                    <div class="md-rank">4.3<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-                <li>
-                    <img class="md-img" src="images/cordova.png" height="115" />
-                    <div class="md-title">PIP Camera - Photo Editor Pro</div>
-                    <div class="md-developer">Fotoable,Inc.</div>
-                    <div class="md-rank">4.4<span class="mbsc-ic mbsc-ic-star3"></span></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-
+    
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="scripts/platformOverrides.js"></script>
     <script type="text/javascript" src="scripts/index.js"></script>

@@ -1,0 +1,66 @@
+﻿{
+	"products": [{
+		"id": 1,
+		"title": "Xiaomi Redmi Note 3 (Gold, 32GB)",
+		"category": "Mobile",
+		"price": "11,999.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "01.jpg"
+	}, {
+		"id": 2,
+		"title": "Samsung On5 Pro (Gold)",
+		"category": "Mobile",
+		"price": "7,990.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "02.jpg"
+	}, {
+		"id": 3,
+		"title": "Microsoft Lumia 535 (White, Dual SIM, 8GB)",
+		"category": "Mobile",
+		"price": "8,999.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "03.jpg"
+	}, {
+		"id": 4,
+		"title": "LG Nexus 5X LG-H791 (16GB, Carbon)",
+		"category": "Mobile",
+		"price": "14,990.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "04.jpg"
+	}, {
+		"id": 5,
+		"title": "OnePlus 3 (Graphite, 64 GB)",
+		"category": "Mobile",
+		"price": "27,999.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "05.jpg"
+	}, {
+		"id": 6,
+		"title": "Dell Inspiron 15 2-in-1",
+		"category": "Laptop",
+		"price": "76,950.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "06.jpg"
+	}, {
+		"id": 7,
+		"title": "Lenovo Yoga 500 14-inch",
+		"category": "Laptop",
+		"price": "11,999.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "07.jpg"
+	}, {
+		"id": 8,
+		"title": "Microsoft Surface Pro 4",
+		"category": "Laptop",
+		"price": "73,990.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "08.jpg"
+	}, {
+		"id": 9,
+		"title": "HP Spectre 13",
+		"category": "Laptop",
+		"price": "146,900.00",
+		"desc": "Some details about Product in a text format. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text. Long long text.",
+		"image": "09.jpg"
+	}]
+}
