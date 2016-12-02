@@ -7,10 +7,34 @@
 
     $(".title").text("MNilay");
     $("#calendar").val("Helloooo");
+
     try {
-        $('#calendar').mobiscroll().calendar();
+        // Deside Theme for App
+        var theme = 'mobiscroll';
+
+        // Set Theme for App
+        mobiscroll.settings = {
+            theme: theme
+        };
+
+        // Set Calender Dropdown
+        $('#calendar').mobiscroll().calendar({
+            theme: theme,
+            display: 'top'
+        });
+
+        // Product List for Homepage
+        $(function () {
+            $('.product-list').mobiscroll().menustrip({
+                theme: theme,
+                display: 'inline',
+                select: 'off',
+                layout: 'fixed',
+                itemWidth: 150
+            });
+        });
     }
     catch (e) {
         $("body").innerHTML = "Missing MobiScroll";
     }
-} )(window);
+})(window);
