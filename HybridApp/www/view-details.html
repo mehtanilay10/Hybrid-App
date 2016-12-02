@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' data: gap: *; style-src 'self' 'unsafe-inline' data: gap: * ; media-src *">
@@ -7,31 +7,23 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
-    <title>HybridApp</title>
+    <title>Product Details</title>
     <!-- Mobiscroll JS and CSS Includes -->
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <link href="https://trial.mobiscroll.com/5c5d6241/mobiscroll.jquery.min.css" rel="stylesheet">
     <script src="https://trial.mobiscroll.com/5c5d6241/mobiscroll.jquery.min.js"></script>
 </head>
-<body class="product-list-page app-theme-mobiscroll">
+<body class="product-list-app app-theme-mobiscroll" id="view-detials">
     <div class="app">
-        <h1 class="title">My Shop</h1>
-        <!--<input id="calendar" placeholder="Please Select...">-->
-        <div class="product-list-page">
-            <div class="md-card-cont" style="display: none" mbsc-enhance>
-                <!--List of products-->
-                <h3>Mobiles</h3>
-                <ul class="product-list" id="mobile-list" style="display:none;"></ul>
-                <h3>2-in-1 Laptops</h3>
-                <ul class="product-list" id="laptop-list" style="display:none;"></ul>
-                <!--About widget-->
-                <a id="show">About App</a>
-                <div id="about" style="display: none;">
-                    <div class="about-body">
-                        <h3>My Shop</h3>
-                        <p>This app is build by Nilay Mehta.</p>
-                    </div>
-                </div>
+        <h1 class="title">Details</h1>
+        <div class="wishlist" mbsc-enhance>
+            <img src="images/cordova.png" class="wishlist-img" id="item-image">
+            <div class="mbsc-padding">
+                <div class="wishlist-title" id="item-title">Nike Women's Air Relentless 3 Running </div>
+                <div class="wishlist-desc wishlist-center" id="item-desc">Item Description</div>
+                <div class="wishlist-price wishlist-center"><b>Rs.</b><span class="wishlist-old-price" id="item-old-price">120</span> <span class="wishlist-new-price" id="item-new-price">100</span></div>
+                <button class="mbsc-btn mbsc-btn-block wishlist-wish" data-icon="plus"><span class="wishlist-wish-text">Add to wishlist</span></button>
+                <button class="mbsc-btn mbsc-btn-block" data-icon="undo2" id="go-back"><span class="wishlist-wish-text">View all items</span></button>
             </div>
         </div>
     </div>
