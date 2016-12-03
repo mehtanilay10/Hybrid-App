@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.cordova.myappa1548e"
+            "PACKAGE_NAME": "app.mn.myshop"
         }
     },
     "dependent_plugins": {}
