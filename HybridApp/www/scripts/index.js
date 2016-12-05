@@ -16,6 +16,7 @@
             if (isAndroid) {
                 theme = 'material';
             }
+
             // Set Theme for App
             mobiscroll.settings = {
                 theme: theme
@@ -76,11 +77,6 @@
                     });
                 });
 
-                // Set Calender Dropdown
-                $('#calendar').mobiscroll().calendar({
-                    theme: theme,
-                    display: 'top'
-                });
             })
 
 
@@ -88,6 +84,7 @@
                 // Obtain Id
                 var id = decodeURIComponent(window.location.search.match(/(\?|&)id\=([^&]*)/)[2].replace('?', ''));
                 console.log('Id: ' + id);
+
                 // Load all details
                 $.getJSON("scripts/data.resjson")
                     .done(function (json) {
@@ -106,6 +103,12 @@
                         var err = textStatus + ", " + error;
                         console.log("Request Failed: " + err);
                     });
+
+                // Set Calender Dropdown
+                $('#calendar').mobiscroll().calendar({
+                    theme: theme,
+                    display: 'top'
+                });
 
                 // Notification for Add to cart button
                 $(function () {
